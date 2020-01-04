@@ -67,7 +67,8 @@ debug.sf.enable_gl_backpressure=1
 # Cne/Dpm
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.cne.feature=1 \
-persist.dpm.feature=1
+persist.vendor.dpm.feature=1 \
+persist.vendor.dpm.loglevel=0
 
 # Coresight
 PRODUCT_PROPERTY_OVERRIDES += \
