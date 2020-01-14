@@ -5,6 +5,9 @@ wifi.active.interface           u:object_r:exported_wifi_prop:s0
 sys.fp.goodix					u:object_r:fingerprint_prop:s0
 sys.fp.vendor					u:object_r:fingerprint_prop:s0
 
+# Dirac
+persist.audio.dirac.                u:object_r:dirac_prop:s0
+
 # Power HAL
 vendor.powerhal.audio                   u:object_r:power_prop:s0
 vendor.powerhal.init                    u:object_r:power_prop:s0
