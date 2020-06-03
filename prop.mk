@@ -297,3 +297,7 @@ ro.cutoff_voltage_mv=3400 \
 ro.memperf.lib=libmemperf.so \
 ro.memperf.enable=false \
 persist.mm.sta.enable=0
+
+# Zygote preforking
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.device_config.runtime_native.usap_pool_enabled=true
