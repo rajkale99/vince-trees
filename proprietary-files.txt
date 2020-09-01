@@ -1237,6 +1237,12 @@ vendor/bin/time_daemon|ccac9c14dcb7f2be8622bc64eeb1820ba595d0fd
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|b056a9bc0ab6642369eda0ce3b097b036da2b24e
 
+# Touch-improve - from LA.UM.8.6.2.r1-07600-89xx.0
+vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so|8762dafd5d67d1f83591538542a244e182b3f22e
+vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so|8cbb3025eaa886f2a6f3f83512e8b390c74278d3
+vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so|ebe70f4e9d5f57563d7fa2047ab4ec36a0d5a58f
+vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so|c251d014742966c9929cb63b410b745257c1cf6f
+
 # TUI - from LA.UM.8.6.r1-04400-89xx.0
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|05c0a47f24e38b14fc7c1ccfa64c585692277ee5
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
