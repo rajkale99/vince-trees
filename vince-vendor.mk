@@ -910,6 +910,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.btconfigstore@1.0.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0_vendor.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
@@ -1137,10 +1139,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.iwlan@1.0.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
@@ -1169,7 +1172,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsconfig@1.1.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/xiaomi/vince/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
