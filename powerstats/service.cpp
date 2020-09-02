@@ -53,8 +53,6 @@ using android::hardware::google::pixel::powerstats::WlanStateResidencyDataProvid
 int main(int /* argc */, char ** /* argv */) {
     ALOGI("power.stats service 1.0 is starting.");
 
-    bool isDebuggable = android::base::GetBoolProperty("ro.debuggable", false);
-
     PowerStats *service = new PowerStats();
 
     // Add power entities related to rpmh
