@@ -1,1 +1,2 @@
-allow rootfs rootfs:dir { search };
+allow rootfs rootfs:dir
+ { search };

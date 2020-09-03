@@ -1,0 +1,1 @@
+allow debugfs_rpm debugfs_rpm:file { getattr  open  read };
