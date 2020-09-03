@@ -22,5 +22,5 @@ cc_library_shared {
 cc_library_shared {
     name: "android.hidl.manager@1.0",
     shared_libs: ["libhidltransport"],
-    vendor: true,
+    vendor_available: true,
 }
