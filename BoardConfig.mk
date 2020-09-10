@@ -92,19 +92,9 @@ TARGET_NO_BOOTLOADER := true
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
-<<<<<<< HEAD
 BOARD_HAVE_BLUETOOTH_QCOM := true
 QCOM_BT_USE_BTNV := true
 TARGET_USE_QTI_BT_STACK := true
-=======
-BLUETOOTH_HCI_USE_MCT := true
-QCOM_BT_USE_SMD_TTY := true
-
-# Build
-BUILD_BROKEN_DUP_RULES := true
-BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
-BUILD_BROKEN_PREBUILT_ELF_FILES := true
->>>>>>> 89ab8a09... X00P: Dont check elf of prebuilt libs
 
 # Camera
 BOARD_QTI_CAMERA_32BIT_ONLY := true
@@ -176,7 +166,9 @@ TARGET_NO_RPC := true
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
-DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/compatibility_matrix.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/vintf/android.hardware.gnss@2.0-service-qti.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/vintf/vendor.qti.gnss@3.0-service.xml
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
