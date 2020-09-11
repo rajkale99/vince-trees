@@ -245,8 +245,10 @@ PRODUCT_PACKAGES += \
     ims_ext_common.xml \
     libui_shim
 
-# IPACM Data
-include $(TOPDIR)vendor/qcom/opensource/data-ipa-cfg-mgr/ipacm_vendor_product.mk
+# IPA Manager
+PRODUCT_PACKAGES += \
+    ipacm \
+    IPACM_cfg.xml
 
 # IRQ
 PRODUCT_COPY_FILES += \
