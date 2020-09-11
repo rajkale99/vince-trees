@@ -190,7 +190,10 @@ PRODUCT_PACKAGES += \
     liboverlay \
     libqdMetaData.system \
     libgenlock \
-    libtinyxml
+    libtinyxml \
+    libhwbinder.vendor \
+    libhwbinder
+
 
 # DRM
 PRODUCT_PACKAGES += \
