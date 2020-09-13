@@ -46,7 +46,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.dsi.ant.antradio_library.xml \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.xml \
@@ -147,8 +146,6 @@ PRODUCT_PACKAGES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor
-
-
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -372,7 +369,8 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
     init.recovery.qcom.usb.rc \
-    init.target.rc
+    init.target.rc \
+    ueventd.qcom.rc
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
@@ -413,6 +411,8 @@ PRODUCT_PACKAGES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
+    android.hardware.thermal@1.0-impl \
+    android.hardware.thermal@1.0-service \
     thermal.msm8953
 
 PRODUCT_COPY_FILES += \
@@ -464,9 +464,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
 
 # Signapk
 PRODUCT_HOST_PACKAGES += \
